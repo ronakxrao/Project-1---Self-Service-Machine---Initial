@@ -21,7 +21,7 @@
                 <div
                     v-for="product in products"
                     class="product"
-                    v-on:click="product.active = !product.active"
+                    @click="product.active = !product.active"
                 >
                     <div class="photo">
                         <img :src="product.photo">
